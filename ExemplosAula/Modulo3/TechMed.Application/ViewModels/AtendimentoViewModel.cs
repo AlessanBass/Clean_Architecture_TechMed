@@ -7,4 +7,4 @@ namespace TechMed.Application.ViewModels
       public PacienteViewModel Paciente { get; set; } = null!;
       public MedicoViewModel Medico { get; set; } = null!;
    }
-}
+} 

@@ -8,7 +8,7 @@ using TechMed.Application.InputModels;
 namespace TechMed.WebAPI.Controllers;
 
 [ApiController]
-[Route("/api/v0.1/")]
+[Route("/api/v0.1/")] 
 public class AtendimentoController : ControllerBase
 {
    private readonly IAtendimentoService _atendimentoService;

@@ -1,5 +1,5 @@
 using TechMed.Application.InputModels;
-using TechMed.Application.ViewModels;
+using TechMed.Application.ViewModels; 
 
 namespace TechMed.Application.Services.Interfaces;
 public interface IAtendimentoService
@@ -8,4 +8,5 @@ public interface IAtendimentoService
    public List<AtendimentoViewModel> GetByPacienteId(int pacienteId);
    public List<AtendimentoViewModel> GetByMedicoId(int medicoId);
    public int Create(NewAtendimentoInputModel atendimento);
+   public int CreateExame(NewExameInputModel exame);
 }

@@ -1,7 +1,7 @@
 using TechMed.Infrastructure.Persistence.Interfaces;
 using TechMed.Core.Entities;
 
-namespace TechMed.Infrastructure.Persistence;
+namespace TechMed.Infrastructure.Persistence; 
 public class AtendimentosDB : IAtendimentoCollection
 {
    private readonly List<Atendimento> _atendimentos = new List<Atendimento>();
